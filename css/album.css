@@ -1,0 +1,29 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #DB53FB;
+    color: white;
+}
+td{
+    background-color: #ffffff;
+}
+.playButton {
+    position: inherit;
+}
+.album-back{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.song-detail-p{
+    font-size: 17px;
+    text-align: justify;
+}

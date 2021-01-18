@@ -1,0 +1,667 @@
+
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+html{
+    box-sizing: border-box;
+}
+/* * Select all elements, and when I use before or after it set inherit box sizing:*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* For all elements in the body get as font family sans-serif */
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    background: #f7f7f7;
+}
+
+/* For the plans button I use the company’s corporate colour */
+#plansBottom{
+    background-color: #DB53FB;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.appText{
+    margin-top: 50px;
+    padding: 0 16px;
+}
+.welcome{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Leftbox its set to float left and with 50% so the right box can be side by side */
+.Box{
+    padding: 10px;
+}
+.Box p {
+    font-size: 14px;
+    text-align: justify;
+}
+#headphones{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right:30px;
+}
+#man{
+    height: 120px;
+    width: 140px;
+    float:right;
+    margin-left: 30px;
+}
+#musician{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right: 30px;
+}
+
+#bnW{
+    height: 120px;
+    width: 140px;
+    float:right;
+    margin-left: 30px;
+}
+.appH2{
+    text-align: center;
+
+}
+.offerImg{
+    width:100%;
+}
+/* The size and position of the plans */
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-top:50px;
+}
+#musicSelection{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.appText{
+    padding: 0 16px;
+}
+
+
+.leftBox1{
+    float:left;
+    width:50%;
+    height:150px;
+    padding-right:50px;
+    padding-left:50px;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+
+
+}
+.leftBox1 p{
+    color: black;
+
+}
+.headphones{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right:30px;
+}
+.man{
+    float: left;
+    padding: 10px;
+    margin-top: -11px;
+}
+.guitar{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right:30px;
+}
+.bnW{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right: 30px;
+}
+.people{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right: 30px;
+}
+.musician{
+    height: 120px;
+    width: 140px;
+    float:left;
+    margin-right: 30px;
+}
+.rightBox1{
+    float:right;
+    width:50%;
+    height:150px;
+    padding-right:50px;
+    padding-left:50px;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+.rightBox1 p{
+    font-size: 21px;
+    color: black;
+}
+
+.appH2{
+    text-decoration: underline;
+    margin-left: 50px;
+    font-size: 25px;
+    color: black;
+}
+/*Music bar show the genre*/
+.musicBar {
+    background-color: #212121;
+    z-index: 1;
+}
+.musicBar-background{
+    background-color: #212121;
+    height: 45px;
+}
+.musicBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.musicBar a:hover {
+    text-decoration: underline;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DB53FB;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.musicBar .search-container {
+    float: right;
+    width: 62%;
+}
+
+.musicBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 14px;
+    border: none;
+    max-width: 150px;
+}
+
+.musicBar .search-container button {
+    position: relative;
+    background: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    right: 35px;
+}
+
+.musicBar .search-container button:hover {
+    background: rgba(223, 84, 255, 0.88);
+}
+
+.artist{
+    margin: 50px 150px 100px 150px;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+}
+.artist p, h1, h4{
+    padding: 0 30px 0 30px;
+}
+.artist p{
+    text-align: justify;
+    font-size: 18px;
+}
+#featuredArtist{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column1 p{
+    text-align: center;
+    font-size: 25px;
+
+}
+.column1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.column1 img:hover {
+    box-shadow: 0 0 5px 5px rgba(219, 83, 251, 0.5);
+}
+#album{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+#natg{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+#ludo{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+#de{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+#raai{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+#es{
+    width: 200px;
+    height: 150px;
+    border: 3px solid #030303;
+    border-radius: 4px;
+}
+.playButton{
+    font-size: 25px;
+    color: #DB53FB;
+    float: right;
+    position: relative;
+    bottom: 75px;
+}
+/* The page bellow 1000px all the page css changes to mobile mode use the media screen*/
+@media screen and (max-width: 1000px)
+{
+    .navbar
+    {
+        flex-direction: column;
+        display: none;
+    }
+    #toggle:checked + .navbar
+    {
+        display: flex;
+    }
+    .togglearea
+    {
+        display: flex;
+    }
+    #logo{
+        display: none;
+    }
+    .logo1{
+       float: left;
+        margin-right: auto;
+    }
+    #logo1{
+        height: 25px;
+    }
+    .column {
+        width: 80%;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #welcome {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+
+
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .box {
+        height: auto;
+        padding: 0;
+    }
+
+    .centered {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+    #musicSelection{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .musicBar a {
+        float: none;
+        margin:0;
+    }
+    .leftBox1{
+        float:left;
+        width:100%;
+        height:auto;
+        border: 0;
+        padding: 0;
+
+    }
+    .rightBox1{
+        float:right;
+        width:100%;
+        height:auto;
+        padding:0 0 20px;
+    }
+    .appH2{
+        text-align: center;
+        margin:10px 0 ;
+    }
+    .musicBar .search-container {
+        float: right;
+    }
+    .musicBar input[type=text] {
+        border: 1px solid #ccc;
+    }
+    #featuredArtist {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .column1 {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .column1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .artist{
+        margin: 50px 8px 100px 8px;
+        padding: 5px 5px 5px 5px;
+    }
+
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    margin-bottom: 50px;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #DB53FB;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #b146cb;
+}
+p{
+    font-size: 14px;
+}
+#copyright{
+    text-align: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 27px;
+}
+.track-control{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+.artist-page-a{
+    text-decoration: none;
+    color: black;
+}
+.artist-img{
+    width: 100%;
+    height: auto;
+}
+.space{
+    margin: 70px;
+}
+.random-sample {
+    float: right;
+    padding: 9px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.select-sample{
+    float: left;
+    padding: 9px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.side-bar-p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+button.addPlaylist {
+    color: white;
+    padding: 6px;
+    background: #DB53FB;
+    border: none;
+    outline: none;
+}
+.button-align{
+    text-align: right;
+}
+#playlistErr{
+    text-align: center;
+}
+p#button-align {
+    text-align: center;
+}
+a#tracksA {
+    text-align: center;
+    color: white;
+    background: #DB53FB;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #ffffff;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #DB53FB;
+    color: white;
+}
+td{
+    background-color: #ffffff;
+}
+.table-Play {
+    position: inherit;
+}
+#hidden-table{
+    display: none;
+    padding: 10px;
+}
+p#random-p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: #DB53FB;
+    margin: 20px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #ffffff;
+}
+#hidden-Recoment-table{
+    display: none;
+    padding: 10px;
+}
+select.plan-selectAccount {
+    width: 100%;
+    height: 37px;
+    margin-bottom: 20px;
+    background: none;
+    border-color: #DB53FB;
+}
+#success{
+    text-align: center;
+    font-size: 18px;
+}
+a#logo-imgA {
+    padding: 12px 10px 0 15px;
+    text-align: left;
+}

@@ -1,0 +1,142 @@
+
+body{
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background: #f7f7f7;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.login-background {
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.label-text {
+    font-weight: 600;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.label-settings{
+    font-weight: 700;
+    -webkit-box-flex: 1;
+    flex: 1;
+    max-width: 100%;
+}
+.form-group {
+    display: -webkit-box;
+    display: flex;
+    margin: 1rem 0 0;
+}
+.form-input {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+    width: 100%;
+    outline: none;
+}
+.input-type{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 8px;
+    min-height: 46px;
+    border-radius: 4px;
+    position: relative;
+    line-height: initial;
+    border: 2px solid #eee;
+    font-size: 1.143em;
+}
+.form-input:focus{
+    border: 2px solid #DB53FB;
+}
+.login-submit{
+    width: 100%;
+    background-color: #DB53FB;
+    color: #fff;
+    border: none;
+    font-size: 1.429em;
+    height: 3rem;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: initial;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+}
+.or-line{
+    text-align: center;
+    position: relative;
+    top: -12px;
+    background: white;
+    padding: 6px;
+}
+.hr-line{
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+}
+.login-msg{
+    font-size: 30px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 34px;
+    padding-top: 27px;
+}
+.login-form-logo{
+    font-size: 60px;
+    color: #333;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.err-msg{
+    color: red;
+}
+
+
+
+
+
+
